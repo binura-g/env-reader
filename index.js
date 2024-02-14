@@ -8,3 +8,5 @@ const filteredEnv = Object.entries(process.env).filter(([key, value]) => {
 });
 
 console.log(filteredEnv);
+
+process.exit(0);
